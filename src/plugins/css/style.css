@@ -1,0 +1,159 @@
+body {
+	font-size: 14px;
+	font-family: arial;
+}
+
+input, select, button, textarea {
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	border: 1px solid #000000;
+	font-size: 12px;
+}
+
+/* CONTAINER */
+div#container {
+	background-color: #d3e4e4;
+	clear: both;
+}
+
+/* HEADER */
+div#container div#header {
+	background-color: #FFBF00;
+	padding: 10px;
+	height: 50px;
+	padding: 10px;
+}
+
+div#container div#header img {
+	float: left;
+	height: 50px;
+}
+
+div#container div#header div {
+	font-size: 11px;
+	float: right;
+	width: 205px;
+	margin: 5px;
+}
+
+div#container div#header div label { /* afetando somente o label */
+	height: 11px;
+	margin: 0 2px 2px;
+	padding: 3px;
+	width: 145px;
+	float: left;
+}
+
+div#container div#header div input[type="text"], div#container div#header div input[type="password"] { /* afetando o login e a senha */
+	height: 12px;
+	margin: 0 2px 2px;
+	width: 100px;
+	font-size: 10px;
+	float: right;
+}
+
+div#container div#header div input[type="submit"] { /* afetando o submit */
+	font-size: 11px;
+	height: 19px;
+	margin: -35px 2px 2px;
+	vertical-align: middle;
+	width: 50px;
+	float: right;
+}
+
+
+/* CONTENT */
+div#container div#content {
+	width: 1035px;
+	height: 200px;
+	margin: 0px auto;
+}
+
+/* MENUS */
+div#container div#menu {
+	float: left;
+	position: relative;
+	z-index: 5;
+}
+
+div#container div#menu div {
+	background-color: #FD8602;
+	border-radius: 0 0 10px 10px;
+	color: #FFFFFF;
+	float: left;
+	font-weight: bolder;
+	margin: 0 5px 5px;
+	padding: 5px;
+	text-align: center;
+	width: 100px;
+}
+
+div#container div#menu div:hover {
+	padding: 10px 5px 5px 5px;
+	background-color: #FE9F37;
+	cursor: pointer;
+}
+
+/* CONTENT do CONTENT */
+div#container div#content div#papel_content{
+	background-image: url("../img/papel_content.png");
+	height: 435px;
+	position: relative;
+	top: 10px;
+	width: 1035px;
+}
+
+/* FOOTER do CONTENT */
+div#container div#content div#papel_footer{
+	background-image: url("../img/papel_footer.png");
+	float: left;
+	height: 50px;
+	margin: 0 17px;
+	width: 1000px;
+}
+
+/* FOOTER */
+div#container div#footer {
+	height: 50px;
+	background-color: #C0FF00;
+	clear: both;
+	padding: 10px;
+}
+
+div#container div#footer span {
+	float: right;
+	margin: 0 25px 0 0;
+	font-weight: bolder;
+	text-align: right;
+}
+
+/* CONTATO */
+div#contato {
+	position: absolute;
+	top: 50px;
+	left: 200px;
+}
+
+div#contato label {
+	width: 256px;
+	display: block;
+	height: 5px;
+}
+
+div#contato label input, div#contato label select {
+	float: right;
+}
+
+div#contato input[type="submit"] {
+	float: left;
+}
+
+div#contato textarea {
+	float: left;
+	width: 250px;
+	height: 100px;
+	max-width: 250px;
+	max-height: 100px;
+	min-width: 250px;
+	min-height: 100px;
+}

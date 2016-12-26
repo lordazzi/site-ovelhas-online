@@ -1,0 +1,148 @@
+body {
+	font-size: 16px;
+	font-family: arial;
+}
+
+div#container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+div#header {
+	background-color: #FFBF00;
+	height: 40px;
+	padding: 10px;
+}
+
+div#header img {
+	height: 50px;
+}
+
+div#sidebar {
+	background-color: #E0EEEE;
+	border-left: 5px solid #FFBF00;
+	border-bottom: 5px solid #FFBF00;
+	border-top: 5px solid #FFBF00;
+	float: left;
+	width: 190px;
+	height: 500px;
+}
+
+div#sidebar div {
+	background-color: #C0FF00;
+	height: 20px;
+	margin: 10px;
+	padding: 10px;
+	color: #000000;
+	font-weight: bolder;
+	border: 1px solid #000000;
+}
+
+div#sidebar div:hover {
+	background-color: #A5DB06;
+	cursor: pointer;
+}
+
+div#content {
+	background-color: #E0EEEE;
+	border: 5px solid #FFBF00;
+	padding: 15px;
+	height: 470px;
+	width: 725px;
+	float: left;
+}
+
+div#content input, div#content select, div#content textarea, div#content div.fake_button {
+	border: 1px solid #000000;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	float: right;
+}
+
+div#content div.fake_button {
+	cursor: pointer;
+	padding: 3px 9px 3px 5px;
+}
+
+div#content textarea {
+	height: 110px;
+	width: 340px;
+	max-height: 110px;
+	max-width: 340px;
+	min-height: 110px;
+	min-width: 340px;
+}
+
+div#content label, div#content span.fake_label {
+	display: block;
+	margin: -8px;
+	width: 340px;
+}
+
+div#content div.super_botao {
+	text-align: center;
+	background-color: #C0FF00;
+	height: 20px;
+	margin: 10px;
+	padding: 10px;
+	color: #000000;
+	font-weight: bolder;
+	border: 1px solid #000000;
+}
+
+div#content div.super_botao:hover {
+	background-color: #A5DB06;
+	cursor: pointer;
+}
+
+/* CLIENTES */
+div#content div.cliente {
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	width: 199px; /* maldito 1 pixel B: */
+	text-align: center;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bolder;
+}
+
+/* CLIENTE_PAGAS */
+div#content div.cliente_pagas {
+	margin: 150px 0 0;
+}
+
+div#content div.cliente_pagas div {
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	cursor: pointer;
+	float: left;
+	font-weight: bolder;
+	margin: 10px;
+	padding: 15px;
+	width: 185px;
+}
+
+div#content form.cliente_pagas {
+	width: 290px;
+	float: right;
+}
+
+div#content form.cliente_pagas textarea {
+	height: 40px;
+	width: 280px;
+	max-height: 40px;
+	max-width: 280px;
+	min-height: 40px;
+	min-width: 280px;
+}
+
+/* FOOTER */
+div#footer {
+	background-color: #FFBF00;
+	height: 30px;
+	width: 960px;
+	clear: both;
+}
